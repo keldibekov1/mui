@@ -173,7 +173,6 @@ export default function Home() {
         </Table>
       </TableContainer>
 
-      {/* Chart qismi */}
       <Paper sx={{ p: 2, mt: 4 }}>
         <Typography variant="h6" gutterBottom>
           Mahsulot narxlari grafigi
