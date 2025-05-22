@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-primary: #C61F1F;
+    --color-dark: #000;
+    --color-content: #111111;
+}
+
+.container{
+    max-width: 1212px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
